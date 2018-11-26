@@ -23,12 +23,44 @@
 Beim ersten Start von Opendash sehen Sie folgende Seite in Ihrem Browser:
 
 <p align="center">
-  <img src="leereSeite.png" />
+  <img src="s1.png" />
 </p>
 
-Zu Beginn müssen Sie erst ein eigenes Dashboard zusammenstellen, indem Sie diesem Widgets hinzufügen. Ein Dashboard ist eine grafische Benutzeroberfläche, auf denen Sie Anwendungen in Form von Widgets verwalten. Ein Widget ist ein interaktives Element auf Ihrem Dashboard, durch das Sie Informationen abrufen und generieren können.
+Beim ersten Start können Sie zwischen dem Monitoring oder dem Reporting wählen.
+Klicken Sie auf Monitoring, um sich umfangreiche Kennzahlen oder Diagramme anzeigen zu lassen.
 
-Grundsätzlich lassen sich mit OpenDash gleich mehrere Kompositionen, also unterschiedliche Dashboards mit individuellen Widgets anlegen und parallel verwalten. So können Sie individuelle Ansichten erstellen und damit eine für die jeweilige Situation angepasste Darstellungsform wählen und zwischen diesen wechseln.
+
+
+<p align="center">
+  <img src="s2.png" /> 
+</p>
+
+
+Zu Beginn sehen Sie das Dashboard mit ein paar Beispielwidgets. Ein Dashboard ist eine grafische Benutzeroberfläche, auf denen Sie Anwendungen in Form von Widgets verwalten. Ein Widget ist ein interaktives Element auf Ihrem Dashboard, durch das Sie Informationen abrufen und generieren können.
+
+Jedes Widget ist dabei gleich aufgebaut:
+<p align="center">
+  <img src="s3.png" /> 
+</p>
+
+-	A: Titel des Widgets
+- B: Der Einstellungsbereich
+
+Durch einen Klick auf B können Sie jedes Widget konfigurieren.
+
+<p align="center">
+  <img src="s4.png" />  
+</p>
+ 
+ -	A:	Titelname ändern
+ - B: Widgetspezifische Einstellungen anpassen
+ - C: Widget vom Dashboard entfernen
+ - D: Einstellungsmenü schließen
+
+ 
+ 
+ 
+Grundsätzlich lassen sich mit OpenDash gleich mehrere Kompositionen, also unterschiedliche Dashboards mit individuellen Widgets anlegen und parallel verwalten. So können Sie individuelle Ansichten kreeiren und damit eine für die jeweilige Situation angepasste Darstellungsform wählen und zwischen diesen wechseln.
 
 
 ### 1.1: Einrichten eines Dashboards
@@ -36,73 +68,77 @@ Grundsätzlich lassen sich mit OpenDash gleich mehrere Kompositionen, also unter
 Zur Erstellung eines neuen Dashboards tippen Sie bitte zuerst auf den Menü-Button links oben **(1)**, es erscheint folgendes Menü **(2)**:
 
 <p align="center">
-  <img src="menubar3.png" />
-</p>
+  <img src="s5.png" /> 
+</p> 
 
 
 Tippen Sie hier auf "Neues Dashboard erstellen" **(2)** und tragen Sie eine Bezeichnung ein, zB "Wichtige Kennzahlen". Bestätigen Sie Ihre Eingabe mit dem "OK"-Button **(3)**. Ihr neues Dashboard wurde erstellt und ist nun in dem Menü **(2)** aufgeführt.
 
 <p align="center">
-  <img src="p3.png" />
+  <img src="s6.png" />
 </p>
+ 
+
  
 
 
 
-
-
-Im Anschluss wird Ihnen abermals die Meldung "Keine Widgets vorhanden :(" angezeigt, weil sie zu diesem Zeitpunkt noch keine Widgets zu ihrem Dashboard hinzugefügt haben. Um dies zu ändern, tippen Sie daher auf den Button "Widget aus Vorlage hinzufügen" **(1)**. Wenn sie nach ihrem ersten Widget noch weitere hinzufügen wollen, finden Sie diese Funktionalität auch immer im Menü **(2)**. Im Bereich "Hinzufügen aus Vorlage" wählen sie dafür "Widgets" **(4)** aus, um ein Widget aus dem bereitgestellten Katalog auszuwählen.
+Im Anschluss wird Ihnen die Meldung "Keine Widgets vorhanden :(" angezeigt. Bei einem leeren Dashboard tippen Sie daher auf den Button "Widget aus Vorlage hinzufügen" **(1)**. Alternativ können Sie auch durch das Tippen auf den Menü-Button **(2)** und "Hinzufügen aus Vorlage" unter der Überschrift "Widgets" **(4)** fortfahren.
 
 <p align="center">
-  <img src="p4.png" />
+  <img src="s7.png" />
 </p>
  
 
-Im Katalog werden Ihnen nun die auswählbaren Widgets angezeigt, die Sie Ihrem Dashboard hinzufügen können. Zum Hinzufügen der Widgets fahren Sie bitte mit Kapitel 1.2 fort.
+Es werden Ihnen nun die auswählbaren Widgets angezeigt, die Sie Ihrem Dashboard hinzufügen können. Zum Hinzufügen der Widgets fahren Sie bitte mit Kapitel 1.2 fort.
 
 ### 1.2: Hinzufügen und Editieren von Widgets
-In diesem Kapitel beschreiben wir das **Hinzufügen** eines Widgets zum Dashboard, das**Verändern der Größe**, das **Verändern der Position**, sowie die **Konfiguration** eines Widgets.
 
 Das Hinzufügen von Widgets ist jederzeit durch das Tippen auf den Menü-Button **(2)** und "Hinzufügen aus Vorlage" **(4)** unter der Überschrift "Widgets" möglich. Sie gelangen darüber zu folgender Ansicht:
 
 <p align="center">
-  <img src="p5.png" />
+  <img src="s8.png" />
 </p>
  
-Dort erhalten Sie einen Überblick über alle aktuell verfügbaren Widgets, welche auch dem nachfolgenden Kapitel 2 entnommen werden kann. Eine Übersicht zu den verfügbaren Sensoren finden Sie in Kapitel 3. Durch das Tippen auf den "Hinzufügen"-Button fügen Sie das ausgewählte Widget zu Ihrem Dashboard hinzu. Anschließend erscheint das jeweilige Widget auf Ihrem Dashboard. 
+Dort erhalten Sie einen Überblick über alle verfügbaren Widgets, welche auch dem nachfolgenden Kapitel 2 entnommen werden kann. Eine Übersicht zu den verfügbaren Sensoren finden Sie in Kapitel 3. Durch das Tippen auf den "Hinzufügen"-Button fügen Sie das ausgewählte Widget zu Ihrem Dashboard hinzu. Anschließend erscheint das jeweilige Widget auf Ihrem Dashboard. 
 
-Bei manchen Widgets ist es aufgrund der besseren Darstellung sinnvoll, diese in der **Größe ändern** zu wollen. Dazu tippen Sie einfach auf das "Editieren"-Symbol in der oberen rechten Ecke des Dashboards **(6)**. Daraufhin erscheint an jedem Widget in der rechten unteren Ecke ein Eselsohr, an welchem Sie durch tippen und ziehen die Größe der Widgets verändern können **(7)**. Wenn Sie zufrieden mit der Darstellung des Widgets sind, tippen Sie einfach auf das "Speichern"-Symbol in der oberen rechten Ecke des Dashboards **(8)**.
-
-<p align="center">
-  <img src="pt6_8.png" />
-</p>
- 
-
-
-Wenn Sie das Widget auf dem Dashboard **verschieben** möchten, tippen Sie ebenfalls auf das "Bearbeiten-Symbol" **(6)** und ziehen Sie es an die gewünschte Position durch drücken in den Titelbereich des jeweiligen Widgets. Wenn Sie zufrieden sind, speichern Sie die Position durch klicken auf das "Speichern"-Symbol **(8)**.
-
-<p align="center">
-  <img src="pt9.png" />
-</p>
- 
-
-
-Weiterhin benötigen die meisten Widgets eine **Konfiguration**. Hierzu tippen Sie auf den Button "Konfigurieren" **(10)**. Alternativ können Sie auch auf den "Widget"-Menü-Button **(11)** klicken und anschließend auf das "Zahnrad"-Icon im oberen rechten Bereich. 
-Die spezifischen Einstellungsmöglichkeiten der einzelnen Widgets entnehmen Sie bitte der jeweiligen Widget-Beschreibung in Kapitel 2. Nachdem Sie auf den "Einstellungen" bzw. "konfigurieren"-Button getippt haben, öffnet sich ein Fenster, in dem Sie die Einstellungen am ausgewählten Widget vornehmen können. Wenn Sie alles konfiguriert haben, schließen Sie das Fenster mit einem Tippen auf das "Speichern" und sofern Sie über das "Widget"-Menü die Einstellungen geöffnet haben, nochmal auf das "Schließen"-Icon oben rechts.
+Einige Widgets müssen noch konfiguriert werden. Klicken Sie auf "Konfigurieren" und wählen Sie anschließend die gewünschte Datenquelle aus.
 
 
 <p align="center">
-  <img src="pt10_11_12.png" />
+  <img src="s9.png" />
+</p>
+Mit einem Klick auf "Speichern" wird das Widget dann vollständig geladen und angezeigt.<br><br>
+
+
+
+
+ 
+
+Bei manchen Widgets ist es aufgrund der besseren Darstellung sinnvoll, diese in der Größe zu editieren. Dazu tippen Sie einfach auf das "Editieren"-Symbol in der oberen rechten Ecke des Dashboards **(6)**. Es erscheint an jedem Widget in der rechten unteren Ecke ein Eselsohr, an welchem Sie durch tippen und ziehen die Größe der Widgets verändern können **(7)**. Wenn Sie zufrieden mit der Darstellung des Widgets sind, tippen Sie einfach auf das "Speichern"-Symbol in der oberen rechten Ecke des Dashboards **(8)**.
+
+<p align="center">
+  <img src="s10.png" /> 
 </p>
  
 
+
+Wenn Sie das Widget auf dem Dashboard verschieben möchten, tippen Sie ebenfalls auf das "Bearbeiten-Symbol" **(6)** und ziehen Sie es an die gewünschte Position durch drücken in den Titelbereich des jeweiligen Widgets. Wenn Sie zufrieden sind, speichern Sie die Position durch klicken auf das "Speichern"-Symbol **(8)**.
+
+<p align="center">
+  <img src="s11.png" />
+</p>
+ 
+
+Widgets können im Edit-Mode auch durch Drag&Drop neu geordnet werden.
+ 
 
 
  
 
 ## 2. Widget-Tabelle
 
-Je nach Konfiguration kann das Dashboard verschiedene Widget-Vorlagen mitbringen. Die Widgets können anhand Ihrer Hintergrundfarbe Kategorien zugeordnet und wie folgt beschrieben werden:
+Je nach Konfiguration kann das Dashboard verschiedene Widget Vorlagen mitbringen. Die Widgets können anhand Ihrer Hintergrundfarbe Kategorien zugeordnet und wie folgt beschrieben werden:
 
 | Symbol        | Name          | Einstellungen  |
 | ------------- |:-------------| -----:|
@@ -120,13 +156,13 @@ Je nach Konfiguration kann das Dashboard verschiedene Widget-Vorlagen mitbringen
 
 ## 3. EUD Editor
 
-Um individuelle Sichten auf Daten zu ermöglichen, können Sie auch eigene Widgets zu erstellen. Hierzu nutzen Sie den "EUD"(=End User Development) -Editor . Diesen finden Sie in dem OpenDash-Menü unter der Kategorie "Widgets" **(13)**. Klicken Sie dazu auf "Neues Analyse-Widget erstellen".
+Um individuelle Widgets zu erstellen, haben Sie die Möglichkeit den "EUD"-Editor zu benutzen. Diesen finden Sie in dem OpenDash-Menü unter der Kategorie "Widgets" **(13)**. Klicken Sie dazu auf "Neues Analyse-Widget erstellen".
 
 <p align="center">
-  <img src="pt13.png" />
+  <img src="s12.png" />
 </p>
  
- Der EUD-Editor leitet Sie durch insgesamt **fünf Schritte**, in denen Sie Ihr neues Widget frei gestalten können.
+ Der EUD-Editor leitet Sie durch insgesamt 5 Schritte, in denen Sie Ihr neues Widget frei gestalten können.
  Die Schritte sind :
  
  - 1) Items / Sensoren
@@ -136,16 +172,16 @@ Um individuelle Sichten auf Daten zu ermöglichen, können Sie auch eigene Widge
  - 5) Vorschau
 
  
- Im ersten Schritt sehen Sie eine Liste von verfügbaren "**Datenquellen**". Sie können eine oder mehrere "Datenquellen" auswählen **(14)**. Dazu klicken Sie die gewünschten Positionen mit der Maus an und klicken dann auf "weiter".
+ Im ersten Schritt sehen Sie eine Liste von verfügbaren "Datenquellen". Sie können eine oder mehrere "Datenquellen" auswählen **(14)**. Dazu klicken Sie die gewümschten Positionen mit der Maus an und klicken Sie auf "weiter".
  
  
 <p align="center">
-  <img src="pt14.png" />
+  <img src="s13.png" />
 </p>
  
 
  
-Als zweiten Schritt können Sie nun für die Datenvisualisierung des Widgets einen **Zeitraum festlegen**. Das heißt: Für welchen Zeitraum interessieren Sie sich bei dem ausgewählten Item oder Sensor?
+Nun haben Sie die Möglichkeit für die Datenvisualisierung des Widgets einen Zeitraum festzulegen.
 Sie haben hier die Wahl zwischen unterschiedlichen Zeiträumen:
 
 - 1) Tage
@@ -159,7 +195,7 @@ Selektieren Sie eine Option und präzisieren Sie Ihre Einheit in dem unterliegen
   <img src="pt15.png" />
 </p>
 
-Im dritten Schritt können Sie die **Darstellungsform (Graphen) auswählen**, in der Sie die grafische Visualisierung letzendlich betrachten wollen. Wählen Sie zwischen folgenden Graphtypen:
+Im Dritten Schritt, können Sie die Darstellungsform, in der Sie die grafische Visualisierung letzendlich betrachten wollen, präzisieren. Wählen Sie zwischen folgenden Graphtypen:
 
 - 1) Zeit-Diagramm
 - 2) Kreis-Diagramm
@@ -174,22 +210,22 @@ Im dritten Schritt können Sie die **Darstellungsform (Graphen) auswählen**, in
   <img src="pt16.png" />
 </p>
  
- Unter dem vorletzten Punkt "**Einstellungen**" können Sie zwischen mehreren Diagrammdarstellungen wählen.
+ Unter dem vorletzten Punkt "Einstellungen" können Sie zwischen mehreren Diagrammdarstellungen wählen.
  Je nach Vorauswahl finden Sie hier unterschiedliche Visualisierungsarten.
  
 <p align="center">
   <img src="pt17.png" />
 </p>  
   
-  Schlißelich können Sie in der **Vorschau** sehen, wie das Widget auf dem Dashboard aussehen wird.
+  In der Vorschau sehen Sie bereits wie das Widget aussehen wird.
   Sie können entweder über den "Speichern"-Button den Wizzard verlassen und das fertige Widget auf dem Dashboard betrachten, oder weitere Anpassungen vornehmen. Dazu klicken Sie im unteren Bereich auf "Mehr Optionen" **(18)**.
-  Vorab haben Sie die Möglichkeit sich die Legende, Tooltipps oder Zoom-Funktion mit Klick auf einen der Buttons ein oder abzuschalten. Zudem steht Ihnen die Exportfunktion der Rohdaten ihrer Abfrage in eine CSV-Datei zur Verfügung.
+  Vorab haben Sie die Möglichkeit sich die Legende, Tooltipps oder Zoom-Funktion mit Klick auf einen der Buttons ein oder abzuschalten. Zudem steht Ihnen die Exportfunktion zur Verfügung.
   
   
 <p align="center">
   <img src="pt18.png" />
 </p>  
-  Mit dem Klick auf den "**Mehr Optionen**"-Button öffnet sich ein Einstellungsmenü, indem Sie weitere Anpassungen vornehmen können.
+  Mit dem Klick auf den "Mehr Optionen"-Button öffnet sich ein Einstellungsmenü, indem Sie weitere Anpassungen vornehmen können.
   
   
   
@@ -197,8 +233,8 @@ Im dritten Schritt können Sie die **Darstellungsform (Graphen) auswählen**, in
   <img src="pt19.png" />
 </p>
   
-  Unter dem Punkt "**Achsenbeschriftungen**" **(19)** können "X" und "Y"-Achse beschriftet werden. Unter "**Datenserien**" **(20)** befindet sich eine Liste mit den in Schritt 1 **(14)** ausgewählten Sensoren. Dessen farbliche Darstellung können Sie mit einem Klick auf den Farbcode rechts verändern **(20)**.
-  Auf der linken Seite unter "**Hilfslinien**" **(21)**, können Sie entweder mit einem Klick auf einen der vier Buttons voreingestellte Hilfslinien hinzufügen, oder eine "Eigene Linie einfügen". Eine Übersicht Ihrer Hilfslinien finden Sie auf der rechten Seite **(22)**. Dort können Sie überflüssige Linien mit Klick auf den "X"-Button auch wieder entfernen. Im Bereich "**Funktionen**" können Achsen sowie Kennzahlen eingefügt und entfernt werden **(23)**.
+  Unter dem Punkt "Achsenbeschriftungen" **(19)** können "X" und "Y"-Achse beschriftet werden. Unter "Datenserien" **(20)** befindet sich eine Liste mit den in Schritt 1 **(14)** ausgewählten Sensoren. Dessen farbliche Darstellung können Sie mit einem Klick auf den Farbcode rechts verändern **(20)**.
+  Auf der linken Seite unter "Hilfslinien" **(21)**, können Sie entweder mit einem Klick auf einen der vier Buttons voreingestellte Hilfslinien hinzufügen, oder eine "Eigene Linie einfügen". Eine Übersicht Ihrer Hilfslinien finden Sie auf der rechten Seite **(22)**. Dort können Sie überflüssige Linien mit Klick auf den "X"-Button auch wieder entfernen. Im Bereich "Funktionen" können Achsen sowie Kennzahlen eingefügt und entfernt werden **(23)**.
   
   
 
