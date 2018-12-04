@@ -10,7 +10,6 @@
 ##### - 1.2. Hinzufügen und Editieren von Widgets
 ### - 2. Widget-Tabelle
 ### - 3. EUD-Editor
-### - 4. Sonstiges 
 
 
 --
@@ -20,7 +19,7 @@
 
 
 
-Beim ersten Start von Opendash sehen Sie folgende Seite in Ihrem Browser:
+Beim ersten Start von Open.DASH sehen Sie folgende Seite in Ihrem Browser:
 
 <p align="center">
   <img src="s1.png" />
@@ -60,7 +59,7 @@ Durch einen Klick auf B können Sie jedes Widget konfigurieren.
  
  
  
-Grundsätzlich lassen sich mit OpenDash gleich mehrere Kompositionen, also unterschiedliche Dashboards mit individuellen Widgets anlegen und parallel verwalten. So können Sie individuelle Ansichten kreeiren und damit eine für die jeweilige Situation angepasste Darstellungsform wählen und zwischen diesen wechseln.
+Grundsätzlich lassen sich mit Open.DASH gleich mehrere Kompositionen, also unterschiedliche Dashboards mit individuellen Widgets anlegen und parallel verwalten. So können Sie individuelle Ansichten kreeiren und damit eine für die jeweilige Situation angepasste Darstellungsform wählen und zwischen diesen wechseln.
 
 
 ### 1.1: Einrichten eines Dashboards
@@ -142,21 +141,21 @@ Je nach Konfiguration kann das Dashboard verschiedene Widget Vorlagen mitbringen
 
 | Symbol        | Name          | Einstellungen  |
 | ------------- |:-------------| -----:|
-| ![Opendash icon](w1.jpg)    | **Wochenverteilung:** Diese Form der Darstellung schlüsselt Datensätze tageweise auf. So erhalten Sie einen Überblick an welchen und in welchem Zeitraum Daten vorliegen. Ob am Wochenende zwischen 12 und 16 Uhr besonders viele Daten vorliegen oder ob Mittwochs generell weniger vorliegt. | Geräteauswahl |
-| ![Opendash icon](w2.jpg)    | **Gauge-Chart:** Hier erhalten Sie den jeweils aktuellen Wert in Form eines Tachos angezeigt. Der Wert wird hier in Live-Zeit aktualisiert. | Geräteauswahl |
-| ![Opendash icon](w3.jpg)    | **Heatmap:** Hier werden Wochentage unter einer stundengenauen Gewichtung miteinander verglichen. Über den Zeitraum können Sie so erkenne in welchen Zeiten bzw. welchen Tagesabschnitten besonders hohe Werte auftreten. Diese werden in dunkleren Blautönen dargestellt. Mit dem Mauszeiger können Sie auf Kästchen klicken um die genauen Werte abzulesen. Dieses Widget eignet sich besonders gut für einen Wochenüberblick um Lastspitzen zu identifizieren |  Geräteauswahl |
-| ![Opendash icon](w5.jpg)    | **Highcharts-Histogramm** Abgebildet wird hier eine Häufigkeit einer relativen Verteilung. Besonders gut geeignet um Muster zu erkennen. Die Daten sind hier historisch. | Geräteauswahl |
-| ![Opendash icon](w6.jpg)    | **Highcharts-Korrelation** Diese Darstellung schlüsselt von monatlichen, über tägliche bis hin zu stündlichen Werten auf. Damit lässt sich auf einen Blick der monatlichen bis stündlichen Verbrauch anzeigen.  | Geräteauswahl |
-| ![Opendash icon](w7.jpg)    | **Highcharts-Live** Dieser lineare Graph stützt sich auf Live-Werte und liefert neben aktuellster Daten auch gleich die Möglichkeit auf Grundlage seiner anreichernden Historie eine einfache Trendanalyse abzubilden. | Geräteauswahl |
-| ![Opendash icon](w8.jpg)    | **Highcharts-Min-Max** Auf einen Blick lässt sich hier der kleinste und größte Wert ablesen. Über eine zusätzliche anpassbare Zeitleiste im unteren Bereich, lässt sich der Graph nach Belieben vergrößern und ein individueller Fokus setzen. | Geräteauswahl |
-| ![Opendash icon](w11.jpg)    | **Highcharts-Zyklus** In einem 24 Stunden-Zyklus lässt sich der aktuelle sowie durchschnittliche Verbrauch anzeigen. Neben aktuellen Zahlen unterstützt der ebenso eingeblendete historische Durchschnitt dabei, Abweichungen schnell zu erkennen. | Geräteauswahl |
-| ![Opendash icon](w9.jpg)    | **Zeitmuster** Hier lassen sich gleich mehrere Zeiträume auf einem Graphen abbilden. Dies erlaubt den direkten Vergleich vergangener Wochen oder Tage unter Zuhilfenahme einer Durchschnitsslinie | Geräteauswahl, Zeitraum |
-| ![Opendash icon](w10.jpg)    | **KPI** Eine große, aktuelle Kennzahlenanzeige erlaubt es ohne weitere überflüssige Darstellungsformen den Fokus auf wichtige Kennzahlen wie einen aktuellen Stromverbrauch zu lenken. Das Widget bietet neben seiner einfachen Darstellung dennoch viele individuelle optische Anspassungen.  | Geräteauswahl, Einheit, Icon, Icon-Position |
+| ![Open.DASH icon](w1.jpg)    | **Wochenverteilung:** Diese Form der Darstellung schlüsselt Datensätze tageweise auf. So erhalten Sie einen Überblick an welchen und in welchem Zeitraum Daten vorliegen. Ob am Wochenende zwischen 12 und 16 Uhr besonders viele Daten vorliegen oder ob Mittwochs generell weniger vorliegt. | Geräteauswahl |
+| ![Open.DASH icon](w2.jpg)    | **Gauge-Chart:** Hier erhalten Sie den jeweils aktuellen Wert in Form eines Tachos angezeigt. Der Wert wird hier in Live-Zeit aktualisiert. | Geräteauswahl |
+| ![Open.DASH icon](w3.jpg)    | **Heatmap:** Hier werden Wochentage unter einer stundengenauen Gewichtung miteinander verglichen. Über den Zeitraum können Sie so erkenne in welchen Zeiten bzw. welchen Tagesabschnitten besonders hohe Werte auftreten. Diese werden in dunkleren Blautönen dargestellt. Mit dem Mauszeiger können Sie auf Kästchen klicken um die genauen Werte abzulesen. Dieses Widget eignet sich besonders gut für einen Wochenüberblick um Lastspitzen zu identifizieren |  Geräteauswahl |
+| ![Open.DASH icon](w5.jpg)    | **Highcharts-Histogramm** Abgebildet wird hier eine Häufigkeit einer relativen Verteilung. Besonders gut geeignet um Muster zu erkennen. Die Daten sind hier historisch. | Geräteauswahl |
+| ![Open.DASH icon](w6.jpg)    | **Highcharts-Korrelation** Diese Darstellung schlüsselt von monatlichen, über tägliche bis hin zu stündlichen Werten auf. Damit lässt sich auf einen Blick der monatlichen bis stündlichen Verbrauch anzeigen.  | Geräteauswahl |
+| ![Open.DASH icon](w7.jpg)    | **Highcharts-Live** Dieser lineare Graph stützt sich auf Live-Werte und liefert neben aktuellster Daten auch gleich die Möglichkeit auf Grundlage seiner anreichernden Historie eine einfache Trendanalyse abzubilden. | Geräteauswahl |
+| ![Open.DASH icon](w8.jpg)    | **Highcharts-Min-Max** Auf einen Blick lässt sich hier der kleinste und größte Wert ablesen. Über eine zusätzliche anpassbare Zeitleiste im unteren Bereich, lässt sich der Graph nach Belieben vergrößern und ein individueller Fokus setzen. | Geräteauswahl |
+| ![Open.DASH icon](w11.jpg)    | **Highcharts-Zyklus** In einem 24 Stunden-Zyklus lässt sich der aktuelle sowie durchschnittliche Verbrauch anzeigen. Neben aktuellen Zahlen unterstützt der ebenso eingeblendete historische Durchschnitt dabei, Abweichungen schnell zu erkennen. | Geräteauswahl |
+| ![Open.DASH icon](w9.jpg)    | **Zeitmuster** Hier lassen sich gleich mehrere Zeiträume auf einem Graphen abbilden. Dies erlaubt den direkten Vergleich vergangener Wochen oder Tage unter Zuhilfenahme einer Durchschnitsslinie | Geräteauswahl, Zeitraum |
+| ![Open.DASH icon](w10.jpg)    | **KPI** Eine große, aktuelle Kennzahlenanzeige erlaubt es ohne weitere überflüssige Darstellungsformen den Fokus auf wichtige Kennzahlen wie einen aktuellen Stromverbrauch zu lenken. Das Widget bietet neben seiner einfachen Darstellung dennoch viele individuelle optische Anspassungen.  | Geräteauswahl, Einheit, Icon, Icon-Position |
 
 
 ## 3. EUD Editor
 
-Um individuelle Widgets zu erstellen, haben Sie die Möglichkeit den "EUD"-Editor zu benutzen. Diesen finden Sie in dem OpenDash-Menü unter der Kategorie "Widgets" **(13)**. Klicken Sie dazu auf "Neues Analyse-Widget erstellen".
+Um individuelle Widgets zu erstellen, haben Sie die Möglichkeit den "EUD"-Editor zu benutzen. Diesen finden Sie in dem Open.DASH-Menü unter der Kategorie "Widgets" **(13)**. Klicken Sie dazu auf "Neues Analyse-Widget erstellen".
 
 <p align="center">
   <img src="s12.png" />
@@ -238,5 +237,4 @@ Im Dritten Schritt, können Sie die Darstellungsform, in der Sie die grafische V
   
   
 
-### 4. Sonstiges 
 
